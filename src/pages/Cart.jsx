@@ -38,7 +38,7 @@ const Cart = () => {
                 )
             })}
         </div>
-        <div className={`w-1/3 cart-div lg:w-1/3 md:w-1/3 sm:w-full border-l duration-1000 p-4 h-full opacity-${cart.length > 0 ? 100 : 0}`}>
+        <div className={`w-1/3 cart-div lg:w-1/3 md:w-1/3 sm:w-full lg:border-l md:border-l sm:border-none duration-1000 p-4 h-full opacity-${cart.length > 0 ? 100 : 0}`}>
                 <div className='flex justify-between items-center'>
                     <p className='font-semibold text-sm'>Total Price : </p>
                     <p className='font-semibold text-sm'>${allTotalPrice}</p>
