@@ -77,7 +77,7 @@ useEffect(() => {
             </div>
             <div>
             <NavLink to="/">
-                <p className='font-extrabold lg:text-3xl md:text-lg sm:text-lg duration-700 tracking-wide text-black'>STITCH</p>
+                <p className='font-extrabold lg:text-3xl md:text-lg sm:text-[10px] duration-700 tracking-wide text-black'>STITCH</p>
             </NavLink>
             </div>
 
@@ -107,7 +107,7 @@ useEffect(() => {
       <div className='w-40 h-40 bg-gray-100 overflow-hidden rounded-md'>
         <img src={items.image} className='w-full h-full object-contain' alt="" />
       </div>
-      <div className='lgLblock md:block sm:hidden'>
+      <div className='lg:block md:block sm:hidden'>
         <p className='font-lighter my-2 uppercase text-[10px]'>{items.name}</p>
         <p className='font-lighter my-2 uppercase text-[10px]'>Price : ${items.price}</p>
         <p className='font-lighter my-2 uppercase text-[10px]'>{items.category}</p>
