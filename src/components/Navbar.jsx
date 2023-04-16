@@ -77,7 +77,7 @@ useEffect(() => {
             </div>
             <div>
             <NavLink to="/">
-                <p className='font-extrabold text-3xl duration-700 tracking-wide text-black'>STITCH</p>
+                <p className='font-extrabold lg:text-3xl md:text-lg sm:text-lg duration-700 tracking-wide text-black'>STITCH</p>
             </NavLink>
             </div>
 
